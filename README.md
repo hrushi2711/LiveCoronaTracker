@@ -37,11 +37,46 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## App Versions Implementations
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+V1.0
+--Basic Application 
+--Working
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Future Road map and Release Summary
+
+V1.1
+--Low Flag Image
+--search with any lowercase
+--Styling
+--Images
+--Icons
+--Fonts
+
+
+V2.0
+--Add Graph Functionality for Analysis
+--Comma Separator in Numbers
+--Statewise Component add for Indian States
+
+
+V3.0
+--Loading/Spinners
+--Tabs
+--Reduce the response time
+--JS Throttling
+
+
+V4.0
+--Go live with the App on Server
+
+V5.0
+--Recent Cororna News
+--Announcements
+--Export charts as PNG or PDF
+
+### API used
+https://disease.sh/docs/
 
 ### Code Splitting
 
