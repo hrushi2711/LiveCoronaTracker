@@ -95,7 +95,7 @@ const StatsCounter = () => {
           style={{ margin: "10px" }}
         >
           <Card.Body>
-            <Card.Title>Cases</Card.Title>
+            <Card.Title>Total Cases</Card.Title>
             <Card.Text>
               <NumberFormat
                 displayType={"text"}
@@ -116,7 +116,7 @@ const StatsCounter = () => {
           style={{ margin: "10px" }}
         >
           <Card.Body>
-            <Card.Title>Deaths</Card.Title>
+            <Card.Title>Total Deaths</Card.Title>
             <Card.Text>
               <NumberFormat
                 displayType={"text"}
@@ -137,7 +137,7 @@ const StatsCounter = () => {
           style={{ margin: "10px" }}
         >
           <Card.Body>
-            <Card.Title>Recovered</Card.Title>
+            <Card.Title>Total Recovered</Card.Title>
             <Card.Text>
               <NumberFormat
                 displayType={"text"}
@@ -153,7 +153,7 @@ const StatsCounter = () => {
         </Card>
       </CardDeck>
       <Form>
-        <div class="container mt-5">
+        <div className="container mt-5">
           <Form.Group controlId="formGroupSearch">
             <Form.Control
               type="text"
@@ -166,7 +166,7 @@ const StatsCounter = () => {
       <Container>
         <Row>
           <Col>
-            <div class="columns-scroll">
+            <div className="columns-scroll">
               <Columns queries={queries}>{countries}</Columns>
             </div>
           </Col>

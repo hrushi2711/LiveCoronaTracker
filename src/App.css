@@ -1,3 +1,5 @@
+@import "../node_modules/@syncfusion/ej2-react-grids/styles/material.css";
+
 .App {
   text-align: center;
 }

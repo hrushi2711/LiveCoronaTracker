@@ -1,13 +1,19 @@
 {
+  "homepage": "http://hrushi2711.github.io/LiveCoronaTracker",
   "name": "covid19",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@syncfusion/ej2-react-grids": "^18.1.48",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
+    "datatables.net": "^1.10.20",
+    "datatables.net-bs": "^1.10.20",
+    "datatables.net-dt": "^1.10.20",
+    "jquery": "^3.5.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-columns": "^1.2.1",
@@ -18,6 +24,8 @@
     "react-spinners": "^0.8.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -37,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
